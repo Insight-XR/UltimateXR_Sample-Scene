@@ -803,7 +803,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
+    Android: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK;USE_INPUT_SYSTEM_POSE_CONTROL
     EmbeddedLinux: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
     GameCoreScarlett: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
     GameCoreXboxOne: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
@@ -813,10 +813,10 @@ PlayerSettings:
     PS5: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
     QNX: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
     Stadia: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
-    Standalone: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
+    Standalone: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK;USE_INPUT_SYSTEM_POSE_CONTROL
     VisionOS: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
     WebGL: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
-    Windows Store Apps: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
+    Windows Store Apps: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK;USE_INPUT_SYSTEM_POSE_CONTROL
     XboxOne: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
     iPhone: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
     tvOS: ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
@@ -851,8 +851,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: UltimateXR_Sample Scene
-  metroPackageVersion: 
+  metroPackageName: UltimateXRSampleScene
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -860,7 +860,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: UltimateXR_Sample Scene
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: UltimateXR_Sample Scene
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
